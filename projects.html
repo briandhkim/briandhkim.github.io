@@ -1,0 +1,148 @@
+<html>
+<head>
+  <title>Projects</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="images/icon-pic.png">
+</head>
+
+<!-- <script>
+  $(document).ready(function() {
+    $("#profileSum").css("color", "white");
+    $("#profileSum").css("background-color", "black");
+  });
+</script> -->
+
+<style>
+  /*.grad{
+    background: linear-gradient(to right, rgba(218,218,218,0.95),rgba(218,218,218,0));
+  }*/
+
+  .overlay{
+    height: 94.7%;
+    /*width: 100%;*/
+    display: auto;
+    align-items: center;
+  }
+
+  .center-things{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .default-bg{
+    background: rgba(218,218,218,0.91);
+  }
+  .navmenu_font{
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+  .special-font{
+    font-family: 'Special Elite', cursive;
+  }
+  .cursive-font{
+    font-family: 'Rock Salt', cursive;
+  }
+</style>
+
+<body class="default-bg">
+
+
+  <div class="navbar-default" id="menu">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">
+          <!-- <img class="img-responsive img-rounded" href="#" alt="Profile picture" src="images/Profile_pic.jpg" style="width:2.1%"> -->
+            <i class="fa fa-home fa-2x"></i>
+        </a>
+      </div>
+      <div class="navbar-right nav-menu ">
+        <ul class="nav navbar-nav navmenu_font">
+        <li><a class="nav-item" href="about.html"><i class="fa fa-id-card-o " style="color: green"></i> About</a></li>
+        <li><a class="nav-item" href="#projects"><i class="fa fa-code " style="color: orange"></i> Projects</a></li>
+        <li><a class="nav-item" href="contact.html"><i class="fa fa-envelope-square " style="color:red"></i> Contact</a></li>
+        </ul>
+      </div>
+<!--       <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span> -->    
+    </div>
+  </div>
+
+  
+
+  <div class="container-fluid special-font" id="projects" > <!-- container div -->
+    
+      <div class="page-header cursive-font">
+          <h1 style="color:orange"> Projects <small style="color:grey"><Strong>/</Strong> various codes completed at UCLA and outside</small></h1>
+      </div>
+
+      <div class="row text-center">   <!--first row beginning-->
+          <div class="col-xs-6 col-md-3">
+            <div class="panel panel-primary">
+              <div class="panel-heading"><i class="fa fa-html5"></i><Strong> Web </Strong><small><Strong>/</Strong> HTML5, CSS, Bootstrap, jQuery</small></div>
+              <div class="panel-body">
+                <a href="https://codepen.io/w1057216/full/bRaxOL/" target="_blank"><i class="fa fa-codepen fa-3x fa-pull-left fa-border"></i></a>...The goal for this project was to create a tribute page as part of freeCodeCamp's basic front end development projects. The task was to build a CodePen.io app showing a tribute page with an image and text as well as links that takes users to external website. The page was made responsive using Bootstrap.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <div class="panel panel-primary">
+              <div class="panel-heading"><i class="fa fa-file-excel-o"></i><Strong> Python </Strong><small><Strong>/</Strong> Pandas, Numpy</small> </div>
+              <div class="panel-body">
+                <a href="https://github.com/briandhkim/PythonUCLA/tree/master/BarCount" target="_blank"><i class="fa fa-terminal fa-3x fa-pull-left fa-border"></i></a>...this project compiled raw data from multiple CSV files into a single, organized CSV output by using DataFrame.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <div class="panel panel-primary">
+              <div class="panel-heading"><i class="fa fa-list-alt"></i><Strong> Python </Strong><small><Strong>/</Strong> Scrapy</small></div>
+              <div class="panel-body">
+              <a href="https://github.com/briandhkim/PythonUCLA/blob/master/pokemonspider.py" target="_blank"><i class="fa fa-file-code-o fa-3x fa-pull-left fa-border"></i></a>...this assignment required that students extract various data from a website by using scrapy and produce a CSV output of the data.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <div class="panel panel-primary">
+              <div class="panel-heading"><i class="fa fa-bar-chart"></i><Strong> Python </Strong><small><Strong>/</Strong> Plotly</small></div>
+              <div class="panel-body">
+                <a href="https://github.com/briandhkim/PythonUCLA/tree/master/CAbridge_data" target="_blank"><i class="fa fa-code fa-3x fa-pull-left fa-border"></i></a>...in this code, data from a given Plotly plot was extracted and manipulated to produce a new plot through Plotly.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <div class="panel panel-primary">
+              <div class="panel-heading"><i class="fa fa-window-restore"></i><Strong> Python </Strong><small><Strong>/</Strong> sockets, GUI</small></div>
+              <div class="panel-body">
+                <a href="https://github.com/briandhkim/PythonUCLA/blob/master/SimpleChat.py" target="_blank"><i class="fa fa-weixin fa-3x fa-pull-left fa-border"></i></a>...a simple chat GUI was created by implementing sockets and using PyQt to create the GUI for the application.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <div class="panel panel-primary">
+              <div class="panel-heading"><i class="fa fa-gamepad"></i><Strong> Java </Strong></div>
+              <div class="panel-body">
+                <a href="https://github.com/briandhkim/JavaUCLA/tree/master/CardGame" target="_blank"><i class="fa fa-folder-o fa-3x fa-pull-left fa-border"></i></a>...a simple card game simulator implementing arrays and arraylists. 
+              </div>
+            </div>
+          </div>
+
+
+
+      </div> <!--end of first row for projects-->     
+      
+  </div>    <!--end of container div-->
+
+
+</body>
+</html>
