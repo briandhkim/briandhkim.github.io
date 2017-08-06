@@ -1,41 +1,53 @@
 <!-- https://www.flickr.com/photos/39325907@N04/15137000698/in/photostream/lightbox/ -->
 <!-- https://www.flickr.com/photos/39325907@N04/14895102416/in/photostream/lightbox/ -->
-
+<html>
 <head>
+	<title>Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-  <!-- <script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="images/icon-pic.png">
+</head>
+
+<!-- <script>
   $(document).ready(function() {
     $("#profileSum").css("color", "white");
     $("#profileSum").css("background-color", "black");
   });
-  </script> -->
+</script> -->
 
-  <style>
-    /*.grad{
-       background: linear-gradient(to right, rgba(218,218,218,0.95),rgba(218,218,218,0));
-       }*/
+<style>
+	/*.grad{
+		background: linear-gradient(to right, rgba(218,218,218,0.95),rgba(218,218,218,0));
+	}*/
 
-    .overlay{
-      height: 94.7%;
-      /*width: 100%;*/
-      display: auto;
-      align-items: center;
-    }
+	.overlay{
+    height: 94.7%;
+    /*width: 100%;*/
+    display: auto;
+    align-items: center;
+	}
 
-    .center-things{
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-    }
+	.center-things{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
 
-    .default-bg{
-      background: rgba(218,218,218,0.91);
-    }
-  </style>
-</head>
+	.default-bg{
+		background: rgba(218,218,218,0.91);
+	}
 
+	.cursive-font{
+		font-family: 'Rock Salt', cursive;
+	}
 
+	.navmenu_font{
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+</style>
 
 <body class="default-bg">
 
@@ -43,13 +55,13 @@
   <div class="navbar-default" id="menu">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#hello">
+        <a class="navbar-brand" href="#hello" style="font-family: 'Rock Salt', cursive">
           <!-- <img class="img-responsive img-rounded" href="#" alt="Profile picture" src="images/Profile_pic.jpg" style="width:2.1%"> -->
           Hello
         </a>
       </div>
       <div class="navbar-right nav-menu">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navmenu_font">
         <li><a class="nav-item" href="about.html"><i class="fa fa-id-card-o " style="color: green"></i> About</a></li>
         <li><a class="nav-item" href="projects.html"><i class="fa fa-code " style="color: orange"></i> Projects</a></li>
         <li><a class="nav-item" href="contact.html"><i class="fa fa-envelope-square " style="color:red"></i> Contact</a></li>
@@ -75,10 +87,10 @@
       				
         				<img src="https://farm4.staticflickr.com/3874/15137000698_8f1c52f182_z.jpg" alt="art by Ben Chen" class="img-responsive center-block img-circle" style="width:80%">
         			
-        			<h1 style="color: white" class="has-text-centered">Welcome<i class="fa fa-thumbs-o-up fa-border" style="font-size: 17px"></i> </h1>
+        			<h1 style="color: white" class="has-text-centered cursive-font">Welcome </h1>
       			</div>    
       
-      			<div class="col-xs-12 col-md-1 " align="center">
+      			<div class="col-xs-12 col-md-1" align="center">
       				<a href="https://github.com/briandhkim" target="_blank">
       					<i class="fa fa-github fa-3x" style="color:black"></i>
       				</a>
@@ -107,7 +119,7 @@
     	<div class="col-xs-12 col-md-7 "  align="center">  <!-- col for intro text-->
     	<!-- class="col-sm-9 col-md-6 col-lg-8" -->
       		<div class="col-xs-12 col-md-12 text-center ">
-       			<h1 id="profileSum">Info text info text info text Info text info text info text Info text info text info text Info text info text info text Info text info text info text</h1>
+       			<h1 id="profileSum" style="font-family: 'Special Elite', cursive">Hello, my name is Brian, and I am studying web development. <br>I am currently available for hire!</h1>
       		</div>    
     	</div>		<!--end col for intro txt-->
 
@@ -116,3 +128,4 @@
 
 
 </body>
+</html>
