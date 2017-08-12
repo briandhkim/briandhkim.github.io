@@ -1,0 +1,32 @@
+.overlay{
+    height: 94.7%;
+    /*width: 100%;*/
+    display: auto;
+    align-items: center;
+}
+
+.center-things{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.default-bg{
+	background: rgba(218,218,218,0.91);
+}
+
+.cursive-font{
+	font-family: 'Rock Salt', cursive;
+}
+
+.navmenu_font{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.special-font{
+    font-family: 'Special Elite', cursive;
+}
+
+/*.grad{
+	background: linear-gradient(to right, rgba(218,218,218,0.95),rgba(218,218,218,0));
+}*/
